@@ -1,0 +1,33 @@
+{
+  "name": "demo-sls-graphql-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^9.6.2",
+    "apollo-server-lambda": "^3.6.3",
+    "class-validator": "^0.13.2",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.2.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typedi": "^0.10.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "serverless-offline": "^8.4.0",
+    "serverless-plugin-typescript": "^2.1.1",
+    "serverless-webpack": "^5.6.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
